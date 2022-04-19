@@ -1,0 +1,38 @@
+.carousel-item {
+  width: 100%;
+  height: 80vh;
+}
+.carousel-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav-item {
+  font-size: 1rem;
+}
+.header {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to left red yellow);
+  transform: rotate(360deg);
+}
+.icono {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+.btn-primary {
+  text-transform: uppercase;
+}
+.card-title {
+  text-align: center;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translate(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
