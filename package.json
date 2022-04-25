@@ -1,0 +1,20 @@
+{
+  "name": "entrega-2-aguirre-leandro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leandroaguirre87/entrega-2-aguirre-leandro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leandroaguirre87/entrega-2-aguirre-leandro/issues"
+  },
+  "homepage": "https://github.com/Leandroaguirre87/entrega-2-aguirre-leandro#readme"
+}
