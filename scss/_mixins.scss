@@ -1,15 +1,13 @@
-.card {
+@mixin flexCenter($direction) {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: $direction;
 }
 
-.footer {
+@mixin flexEnd($direction) {
   display: flex;
   justify-content: end;
   align-items: flex-end;
-  flex-direction: flex-end;
+  flex-direction: $direction;
 }
-
-/*# sourceMappingURL=style.css.map */
