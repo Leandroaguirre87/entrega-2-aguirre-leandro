@@ -3,9 +3,8 @@
 @import "resets";
 
 .card {
-  @include flexCenter(row);
-}
+    @include flexCenter(row);
+  }
 
 .footer {
-  @include flexEnd(flex-end);
-}
+  @include flexEnd(flex-end);}
