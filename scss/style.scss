@@ -3,8 +3,20 @@
 @import "resets";
 
 .card {
-    @include flexCenter(row);
-  }
+  @include flexCenter(row);
+}
 
 .footer {
-  @include flexEnd(flex-end);}
+  @include flexEnd(flex-end);
+}
+
+$map: (
+  boton1: color red,
+  boton2: color blue,
+  boton3: color green,
+);
+@each $boton, $color in $map {
+  .btn--#{$boton} {
+    background-color: $color;
+  }
+}

@@ -18,4 +18,16 @@
   flex-direction: flex-end;
 }
 
+.btn--boton1 {
+  background-color: color red;
+}
+
+.btn--boton2 {
+  background-color: color blue;
+}
+
+.btn--boton3 {
+  background-color: color green;
+}
+
 /*# sourceMappingURL=style.css.map */
