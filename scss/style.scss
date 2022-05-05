@@ -10,13 +10,6 @@
   @include flexEnd(flex-end);
 }
 
-$map: (
-  boton1: color red,
-  boton2: color blue,
-  boton3: color green,
-);
-@each $boton, $color in $map {
-  .btn--#{$boton} {
-    background-color: $color;
-  }
+.btn-primary {
+  background-color: map-get ($map, boton1);
 }
