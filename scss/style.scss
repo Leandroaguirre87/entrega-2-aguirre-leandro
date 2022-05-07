@@ -13,3 +13,7 @@
 .btn-primary {
   background-color: map-get ($map, boton1);
 }
+
+.container {
+  @include flexCenter(column);
+}
